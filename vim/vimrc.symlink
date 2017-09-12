@@ -2,3 +2,44 @@ syntax on
 
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
+
+
+" ==== Plugins
+" Specify a directory for plugins
+call plug#begin('~/.vim/plugged')
+
+" Make sure you use single quotes
+
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'jistr/vim-nerdtree-tabs', { 'on':  'NERDTreeToggle' }
+Plug 'christoomey/vim-tmux-navigator'
+
+" Initialize plugin system
+call plug#end()
+
+" Auto open nerd tree on startup
+ let g:nerdtree_tabs_open_on_gui_startup = 0
+" Focus in the main content window
+let g:nerdtree_tabs_focus_on_files = 1
+
+
+
+" ==== NERD tree
+" Ctrl-N for nerd tree
+map <C-n> :NERDTreeToggle<CR>
+
+" Don't allow any default key-mappings.
+let g:tmux_navigator_no_mappings = 1
+
+" Re-enable tmux_navigator.vim default bindings, minus <c-\>.
+" <c-\> conflicts with NERDTree "current file".
+nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
+nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
+nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
+nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
+
+" Create window splits easier. The default
+" way is Ctrl-w,v and Ctrl-w,s. I remap
+" this to vv and ss
+nnoremap <silent> vv <C-w>v
+nnoremap <silent> ss <C-w>s
