@@ -31,3 +31,7 @@
         #
         # Setting to git 2.0 default to suppress warning message
         default = simple
+[user]
+	name = mcmonkeyman
+	mail = eoin4real@gmail.com
+	email = eoin4real@gmail.com

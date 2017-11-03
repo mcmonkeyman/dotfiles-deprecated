@@ -17,27 +17,34 @@ Plug 'christoomey/vim-tmux-navigator'
 " Initialize plugin system
 call plug#end()
 
+
+" ==== NERD tree
 " Auto open nerd tree on startup
  let g:nerdtree_tabs_open_on_gui_startup = 0
 " Focus in the main content window
 let g:nerdtree_tabs_focus_on_files = 1
-
-
-
-" ==== NERD tree
 " Ctrl-N for nerd tree
 map <C-n> :NERDTreeToggle<CR>
 
+
+" === Clipboard
+" yank to clipboard
+set clipboard=unnamed " copy to the system clipboard
+set clipboard+=autoselect
+
+
+" === Mouse Scroll
+set mouse=a
+
+" === Other
 " Don't allow any default key-mappings.
 let g:tmux_navigator_no_mappings = 1
-
 " Re-enable tmux_navigator.vim default bindings, minus <c-\>.
 " <c-\> conflicts with NERDTree "current file".
 nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
 nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
 nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
-
 " Create window splits easier. The default
 " way is Ctrl-w,v and Ctrl-w,s. I remap
 " this to vv and ss
