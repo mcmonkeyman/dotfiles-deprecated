@@ -1,4 +1,4 @@
-# eoin dotfiles
+# mcmonkeyman dotfiles
 
 
 ## About
