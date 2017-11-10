@@ -1,10 +1,8 @@
 default: limited_update
 
-bootstrap:
+full_update:
 	script/bootstrap
 
-full_update:
-	bin/dot
-
 limited_update:
-	script/install
+	# Install macOS defaults, homebrew, brews and install scripts 
+	bin/dot

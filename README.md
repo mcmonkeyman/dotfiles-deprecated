@@ -12,7 +12,7 @@ Run this:
 ```sh
 git clone https://github.com/mcmonkeyman/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
-script/bootstrap
+make full_update
 ```
 
 This will symlink the appropriate files in `.dotfiles` to your home directory.
