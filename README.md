@@ -1,7 +1,7 @@
 # mcmonkeyman dotfiles
 
 
-## About
+## about
 
 Previously I used [yard](https://github.com/mcmonkeyman/dotfiles-old) but ported over to [holmon-dotfiles](https://github.com/holman/dotfiles) in late 2017.
 
@@ -10,7 +10,7 @@ Previously I used [yard](https://github.com/mcmonkeyman/dotfiles-old) but ported
 Run this:
 
 ```sh
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
+git clone https://github.com/mcmonkeyman/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
