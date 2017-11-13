@@ -14,6 +14,7 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'jistr/vim-nerdtree-tabs', { 'on':  'NERDTreeToggle' }
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'kien/ctrlp.vim'
+Plug 'tomtom/tcomment_vim'
 
 " Initialize plugin system
 call plug#end()
@@ -76,6 +77,13 @@ nnoremap <silent> ,t :CtrlPMixed<CR>
 " Additional mapping for buffer search
 nnoremap <silent> ,b :CtrlPBuffer<cr>
 
+" tComment
+" " ========================================
+" " extensions for tComment plugin. Normally
+" " tComment maps 'gcc' to comment current line
+" " this adds 'gcp' comment current paragraph (block)
+" " using tComment's built in <c-_>p mapping
+nmap <silent> gcp <c-_>p
 
 " === Other
 " Don't allow any default key-mappings.
