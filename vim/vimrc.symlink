@@ -99,4 +99,6 @@ nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
 " this to vv and ss
 nnoremap <silent> vv <C-w>v
 nnoremap <silent> ss <C-w>s
+" Show line number
+set number
 
