@@ -12,8 +12,8 @@ else
   usage
 fi
 
-if ! [ -x "$(command -v pg_format)" ]; then
-  echo 'Error: pgFormatter is not installed.' >&2
+if ! [ -x "$(command -v sqlformat)" ]; then
+  echo 'Error: sqlformat is not installed.' >&2
   exit 1
 fi
 
@@ -24,7 +24,6 @@ do
     TMP_FILE=$(mktemp)
 
     # Alternative formatter
-    # pg_format "$file" -o "$TMP_FILE"
     sqlformat -r "$file" > "$TMP_FILE"
     mv "$TMP_FILE" "$file"
 done
