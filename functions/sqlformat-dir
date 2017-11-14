@@ -1,0 +1,30 @@
+#! /usr/bin/env bash
+set -e
+
+usage() {
+  echo "usage: $0 dir-with-sql-files"
+  exit 1
+}
+
+if [[ -n "$1" ]]; then
+  DIR="$1"
+else
+  usage
+fi
+
+if ! [ -x "$(command -v pg_format)" ]; then
+  echo 'Error: pgFormatter is not installed.' >&2
+  exit 1
+fi
+
+
+find "$DIR" -name \*.sql -print0 | while read -d $'\0' file 
+do 
+    echo "formatting $file..."
+    TMP_FILE=$(mktemp)
+
+    # Alternative formatter
+    # pg_format "$file" -o "$TMP_FILE"
+    sqlformat -r "$file" > "$TMP_FILE"
+    mv "$TMP_FILE" "$file"
+done
