@@ -101,4 +101,3 @@ nnoremap <silent> vv <C-w>v
 nnoremap <silent> ss <C-w>s
 " Show line number
 set number
-
