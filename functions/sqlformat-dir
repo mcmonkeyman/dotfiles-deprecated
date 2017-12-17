@@ -22,8 +22,6 @@ find "$DIR" -name \*.sql -print0 | while read -d $'\0' file
 do 
     echo "formatting $file..."
     TMP_FILE=$(mktemp)
-
-    # Alternative formatter
     sqlformat -r "$file" > "$TMP_FILE"
     mv "$TMP_FILE" "$file"
 done
