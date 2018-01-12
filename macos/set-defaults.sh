@@ -51,6 +51,11 @@ defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 sudo chflags nohidden /Volumes
 
 # Set screen 
-cscreen -d 32 -x 1650 -y 1050 -i 4280600
-cscreen -d 32 -x 2560 -y 1440 -i 1a003e81
+if which cscreen >/dev/null; then
+    echo cscreen exists
+    cscreen -d 32 -x 1650 -y 1050 -i 4280600
+    cscreen -d 32 -x 2560 -y 1440 -i 1a003e81
+else
+    echo cscreen does not exist
+fi
 
