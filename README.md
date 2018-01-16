@@ -28,16 +28,16 @@ this script in `bin/`.
 
 ## post-install
 Manually Install:
-    - Xcode
-    - Microsoft Programs
+- Xcode
+- Microsoft Programs
 
 Manually:
-    - Remap `caps lock` to `escape`
-    - Run `:PlugInstall` inside of vim
-    - Permission Amethyst to run: https://github.com/ianyh/Amethyst
-    - Generate ssh key and add to github
-        - https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
-        - https://github.com/settings/keys
+- Remap `caps lock` to `escape`
+- Run `:PlugInstall` inside of vim
+- Permission Amethyst to run: https://github.com/ianyh/Amethyst
+- Generate ssh key and add to github
+	- https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+	- https://github.com/settings/keys
 
 ## topical
 
