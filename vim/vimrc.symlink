@@ -31,9 +31,8 @@ let g:NERDTreeWinSize = 30
 let g:nerdtree_tabs_open_on_gui_startup = 0
 " Focus in the main content window
 let g:nerdtree_tabs_focus_on_files = 1
-" Ctrl-N for nerd tree
-map <C-n> :NERDTreeToggle<CR>
-
+" Ctrl-N for nerd tree, VimEnter runs after YankRing Plugin
+autocmd VimEnter * map <C-n> :NERDTreeToggle<CR>
 
 " === Clipboard
 " yank to clipboard

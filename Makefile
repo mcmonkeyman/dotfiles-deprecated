@@ -5,3 +5,6 @@ full_update:
 limited_update:
 	# Install macOS defaults, homebrew, brews and install scripts 
 	bin/dot
+
+dump_brew:
+	brew bundle dump --force

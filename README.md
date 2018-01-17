@@ -38,6 +38,9 @@ Manually:
 - Generate ssh key and add to github
 	- https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 	- https://github.com/settings/keys
+- Setup lock on sleep: https://support.apple.com/kb/PH25376?locale=en_US 
+- Setup python2 and python3
+- Setup java8 https://gist.github.com/alChaCC/ddb11542c9e6b6683bad80d9ca858bc5
 
 ## topical
 
