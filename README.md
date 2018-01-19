@@ -41,6 +41,7 @@ Manually:
 - Setup lock on sleep: https://support.apple.com/kb/PH25376?locale=en_US 
 - Setup python2 and python3
 - Setup java8 https://gist.github.com/alChaCC/ddb11542c9e6b6683bad80d9ca858bc5
+- Steup docker https://www.docker.com/docker-mac
 
 ## topical
 
