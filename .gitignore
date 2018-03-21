@@ -10,3 +10,4 @@ atom.symlink/blob-store
 atom.symlink/recovery
 
 git/gitconfig.local.symlink
+iterm2/com.googlecode.iterm2.plist
