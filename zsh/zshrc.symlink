@@ -48,8 +48,8 @@ zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
+
 export PATH="/usr/local/opt/sbt@0.13/bin:$PATH"
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 export PATH="/usr/local/opt/python@2/bin:$PATH"

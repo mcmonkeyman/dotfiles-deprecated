@@ -1,0 +1,7 @@
+#! /usr/bin/env bash
+set -e
+
+sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;
+echo 'chrome://net-internals/#dns'
+
+
