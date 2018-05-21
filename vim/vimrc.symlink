@@ -119,3 +119,7 @@ nnoremap <silent> ss <C-w>s
 " Show line number
 set number
 
+
+autocmd BufNewFile,BufRead *.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn,*.md  setf markdown
+
+autocmd Filetype markdown setlocal ts=2 sw=2 sts=0 expandtab
