@@ -30,6 +30,8 @@ this script in `bin/`.
 Manually Install:
 - Xcode
 - Microsoft Programs
+- Jetbrains toolbox
+- Docker for Mac
 
 Manually:
 - Remap `caps lock` to `escape`
