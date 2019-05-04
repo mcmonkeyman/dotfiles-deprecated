@@ -7,13 +7,16 @@ Previously I used [yard](https://github.com/mcmonkeyman/dotfiles-old) but ported
 
 ## install
 
-Run this:
+* Manually Install Xcode
+* Run this:
 
 ```sh
 git clone https://github.com/mcmonkeyman/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 make full_update
+make limited_update
 ```
+* Restart iterm2
 
 This will symlink the appropriate files in `.dotfiles` to your home directory.
 Everything is configured and tweaked within `~/.dotfiles`.
@@ -27,14 +30,9 @@ time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
 
 ## post-install
-Manually Install:
-- Xcode
-- Microsoft Programs
-- Jetbrains toolbox
-- [Docker for Mac](https://www.docker.com/docker-ma)
 
 Manually:
-- Remap `caps lock` to `escape`
+- Follow [yadr instructions](https://github.com/skwp/dotfiles#wait-youre-not-done-do-this)
 - Run `:PlugInstall` inside of vim
 - Permission Amethyst to run: https://github.com/ianyh/Amethyst
 - Generate ssh key and add to github
@@ -43,6 +41,10 @@ Manually:
 - Setup lock on sleep: https://support.apple.com/kb/PH25376?locale=en_US 
 - Setup python2 and python3
 - Setup java8 https://gist.github.com/alChaCC/ddb11542c9e6b6683bad80d9ca858bc5
+- Install:
+  - Microsoft Programs
+  - Jetbrains toolbox
+  - [Docker for Mac](https://www.docker.com/docker-ma)
 
 ## topical
 
