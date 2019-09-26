@@ -40,6 +40,9 @@ bindkey '^?' backward-delete-char
 
 # control+arrow for moving words
 # https://superuser.com/questions/357355/how-can-i-get-controlleft-arrow-to-go-back-one-word-in-iterm2
+bindkey -e
+bindkey '^[[1;9C' forward-word
+bindkey '^[[1;9D' backward-word
 
 bindkey -e
 bindkey '^[[1;9C' forward-word
