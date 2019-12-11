@@ -17,6 +17,10 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-scripts/YankRing.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+Plug 'rodjek/vim-puppet'
+Plug 'vim-syntastic/syntastic'
 
 " Initialize plugin system
 call plug#end()
@@ -33,6 +37,9 @@ let g:nerdtree_tabs_open_on_gui_startup = 0
 let g:nerdtree_tabs_focus_on_files = 1
 " Ctrl-N for nerd tree, VimEnter runs after YankRing Plugin
 autocmd VimEnter * map <C-n> :NERDTreeToggle<CR>
+" NERDTREE tree find"
+nmap ,n :NERDTreeFind<CR>
+
 
 " === Clipboard
 " yank to clipboard

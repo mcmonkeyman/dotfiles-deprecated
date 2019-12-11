@@ -111,4 +111,5 @@ bind C-a send-prefix
 # bind a send-prefix
 
 # Make Zsh the shell
+SHELL=/usr/local/bin/zsh
 set-option -g default-shell $SHELL

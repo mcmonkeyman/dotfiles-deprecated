@@ -8,3 +8,8 @@ then
   alias ll="gls -l --color"
   alias la='gls -A --color'
 fi
+
+if $(idea --help &>/dev/null)
+then
+  alias io="idea ." 
+fi 
