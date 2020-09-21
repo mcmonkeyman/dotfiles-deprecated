@@ -21,3 +21,18 @@ alias gcb='git copy-branch-name'
 alias gb='git branch'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias gac='git add -A && git commit -m'
+
+# Github
+## Open master branch
+gh(){
+  open $(git config remote.origin.url | sed "s/git@\(.*\):\(.*\).git/https:\/\/\1\/\2/")/$1$2
+}
+
+## Open current branch
+alias ghb='gh tree/$(git symbolic-ref --quiet --short HEAD )'
+
+## Open current directory/file in current branch
+alias ghbf="gh tree/$(git symbolic-ref --quiet --short HEAD )/$(git rev-parse --show-prefix)"
+
+## Open current directory/file in master branch
+alias ghf='gh tree/master/$(git rev-parse --show-prefix)'

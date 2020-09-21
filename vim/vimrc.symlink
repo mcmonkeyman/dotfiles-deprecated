@@ -21,6 +21,8 @@ Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'rodjek/vim-puppet'
 Plug 'vim-syntastic/syntastic'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+Plug 'gabrielelana/vim-markdown'
 
 " Initialize plugin system
 call plug#end()
@@ -126,6 +128,8 @@ nnoremap <silent> ss <C-w>s
 " Show line number
 set number
 
+"move current line to the end of buffer without moving cursor
+nnoremap <leader>mv ddGp``
 
 autocmd BufNewFile,BufRead *.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn,*.md  setf markdown
 
