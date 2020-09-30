@@ -5,10 +5,7 @@ tap "caskroom/versions"
 tap "caskroom/cask"
 # cask "java"
 cask "xquartz"
-<<<<<<< Updated upstream
-=======
 # cask "caskroom/versions/java8"
->>>>>>> Stashed changes
 brew "ack"
 brew "apache-spark"
 brew "apgdiff"
@@ -81,11 +78,8 @@ cask "gitter"
 # cask "google-chrome"
 cask "intellij-idea-ce"
 cask "iterm2"
-<<<<<<< Updated upstream
-=======
 cask "karabiner"
 # cask "lastpass"
->>>>>>> Stashed changes
 cask "macdown"
 cask "skype"
 # cask "slack"
