@@ -34,4 +34,5 @@ Manually:
   - Microsoft Programs
   - Jetbrains toolbox
   - [Docker for Mac](https://www.docker.com/docker-ma)
+  - [privateinternetaccess](https://www.privateinternetaccess.com/installer/x/download_installer_osx)
 
