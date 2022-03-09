@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:z0000001646841138959*0380438814522640118</id>
+	<updated>2022-03-09T15:53:44Z</updated>
+	<author>
+		<name>Eoin O'Connor</name>
+		<email>eoino@spotify.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001646841138959*0380438814522640118</id>
+		<updated>2022-03-09T15:53:44Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply+ghe@spotify.net'/>
+		<apps:property name='hasTheWord' value='cc:mention@noreply.ghe.spotify.net'/>
+		<apps:property name='label' value='_github/mention'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<updated>2022-03-09T15:53:44Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply+ghe@spotify.net'/>
+		<apps:property name='hasTheWord' value='cc:assign@noreply.ghe.spotify.net'/>
+		<apps:property name='label' value='_github/assign'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<updated>2022-03-09T15:53:44Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply+ghe@spotify.net'/>
+		<apps:property name='hasTheWord' value='cc:author@noreply.ghe.spotify.net'/>
+		<apps:property name='label' value='_github/author'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<updated>2022-03-09T15:53:44Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply+ghe@spotify.net'/>
+		<apps:property name='hasTheWord' value='cc:comment@noreply.ghe.spotify.net'/>
+		<apps:property name='label' value='_github/comment'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<updated>2022-03-09T15:53:44Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply+ghe@spotify.net'/>
+		<apps:property name='hasTheWord' value='cc:manual@noreply.ghe.spotify.net'/>
+		<apps:property name='label' value='_github/manual'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<updated>2022-03-09T15:53:44Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply+ghe@spotify.net'/>
+		<apps:property name='hasTheWord' value='cc:push@noreply.ghe.spotify.net'/>
+		<apps:property name='label' value='_github/push'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<updated>2022-03-09T15:53:44Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply+ghe@spotify.net'/>
+		<apps:property name='hasTheWord' value='cc:review_requested@noreply.ghe.spotify.net'/>
+		<apps:property name='label' value='_github/review_requested'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<updated>2022-03-09T15:53:44Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply+ghe@spotify.net'/>
+		<apps:property name='hasTheWord' value='cc:security_alert@noreply.ghe.spotify.net'/>
+		<apps:property name='label' value='_github/security_alert'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<updated>2022-03-09T15:53:44Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply+ghe@spotify.net'/>
+		<apps:property name='hasTheWord' value='cc:state_change@noreply.ghe.spotify.net'/>
+		<apps:property name='label' value='_github/state_change'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<updated>2022-03-09T15:53:44Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply+ghe@spotify.net'/>
+		<apps:property name='hasTheWord' value='cc:subscribed@noreply.ghe.spotify.net'/>
+		<apps:property name='label' value='_github/subscribed'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<updated>2022-03-09T15:53:44Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply+ghe@spotify.net'/>
+		<apps:property name='hasTheWord' value='cc:team_mention@noreply.ghe.spotify.net'/>
+		<apps:property name='label' value='_github/team_mention'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<updated>2022-03-09T15:53:44Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply+ghe@spotify.net'/>
+		<apps:property name='hasTheWord' value='cc:your_activity@noreply.ghe.spotify.net'/>
+		<apps:property name='label' value='_github/your_activity'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+</feed>
