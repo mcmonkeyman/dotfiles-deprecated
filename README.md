@@ -23,7 +23,6 @@ make limited_update
 Manually:
 - Follow [yadr instructions](https://github.com/skwp/dotfiles#wait-youre-not-done-do-this)
 - Run `:PlugInstall` inside of vim
-- Permission Amethyst to run: https://github.com/ianyh/Amethyst
 - Generate ssh key and add to github
 	- https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 	- https://github.com/settings/keys
