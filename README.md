@@ -22,6 +22,15 @@ make limited_update
 
 Manually:
 - Follow [yadr instructions](https://github.com/skwp/dotfiles#wait-youre-not-done-do-this)
+-- Install iTerm Solarized Colors
+    YADR will install Solarized colorschemes into your iTerm. Go to Profiles => Colors => Load Presets to pick Solarized Dark.
+-- Update Caps Key - > Esc
+ System Settings - Modifier Keys - Remap Caps-Lock to Esc 
+-- Set up a system wide hotkey for iTerm (Keys=>Hotkey)
+Recommended Cmd-Escape, which is really Cmd-Capslock. 
+-- In iTerm, uncheck "Native full screen windows" on General
+This will give you fast full screen windows that are switchable without switching to spaces.
+
 - Run `:PlugInstall` inside of vim
 - Generate ssh key and add to github
 	- https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
