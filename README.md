@@ -1,5 +1,6 @@
-# mcmonkeyman dotfiles
+# [Deprecated] mcmonkeyman dotfiles
 
+**UPDATED TO USE PRIVATE VERSION ON FEB 2024**
 
 ## about
 
